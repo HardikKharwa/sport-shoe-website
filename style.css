@@ -27,6 +27,7 @@ li {
 /* Navbar */
 
 .navbar {
+    background: #866363;
     width: 100%;
     padding: 20px 0;
 }
@@ -162,4 +163,5 @@ li {
         opacity: 1;
         transform: translateX(0px);
     }
+
 }
