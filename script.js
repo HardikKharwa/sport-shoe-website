@@ -1,7 +1,7 @@
 const hamburger = document.getElementById('hamburger');
-const nav = document.querySelector('.nav');
+    const navLinks = document.getElementById('navLinks');
 
-hamburger.addEventListener('click', () => {
-  hamburger.classList.toggle('active');
-  nav.classList.toggle('active');
-});
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navLinks.classList.toggle('active');
+    });
