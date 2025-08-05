@@ -1,7 +1,7 @@
-const hamburger = document.getElementById('hamburger');
-    const navLinks = document.getElementById('navLinks');
+const toggle = document.getElementById("menu-toggle");
+const navLinks = document.getElementById("nav-links");
 
-    hamburger.addEventListener('click', () => {
-      hamburger.classList.toggle('active');
-      navLinks.classList.toggle('active');
-    });
+toggle.addEventListener("click", () => {
+  navLinks.classList.toggle("active");
+  toggle.textContent = navLinks.classList.contains("active") ? "✖" : "☰";
+});
